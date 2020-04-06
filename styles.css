@@ -194,3 +194,25 @@ hr{
     }
   }
 
+
+
+
+
+
+  .in-post-image img{
+      width: auto;
+  }
+
+  .left-main-article ul{
+    list-style: none;
+    margin: 4rem 0;
+  }
+
+  .left-main-article li{
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .left-main-article li:nth-child(odd){
+    background: #ebebeb;
+  }
