@@ -529,6 +529,7 @@ nav {
 
 nav .flex-row {
   height: 100%;
+  padding: 1rem;
 }
 
 nav .flex-4-12,
@@ -558,9 +559,9 @@ nav li {
   background: #F2F2F2;
 }
 
-.nav-tagline h1 {
+.nav-tagline h2 {
   padding: .5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .home-main-aff {
@@ -636,10 +637,29 @@ nav li {
   padding: 2rem 3rem;
 }
 
+.home-main-aff .see-more-container a:hover {
+  color: #0097FB;
+}
+
 @media (min-width: 768px) {
   .home-main-aff .aff-container {
     margin: 1rem;
   }
+}
+
+.home-main-welcome {
+  margin: 6rem 1rem;
+}
+
+.home-main-welcome h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.home-main-welcome i {
+  color: #82ADE4;
 }
 
 .home-main-welcome p {
@@ -647,5 +667,13 @@ nav li {
   color: #23232D;
   font-size: 1.75rem;
   line-height: 2.75rem;
-  margin: 6rem 0;
+}
+
+.home-main-welcome .disclosure {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  display: block;
+  color: #23232D;
+  margin: 2rem 0;
+  width: auto;
 }
