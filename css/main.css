@@ -1,0 +1,647 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+.xs-font-size {
+  font-size: 9rem;
+  line-height: 1.25rem;
+  display: block;
+}
+
+.s-font-size {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  display: block;
+}
+
+.m-font-size {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  display: block;
+}
+
+.xm-font-size {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  display: block;
+}
+
+.l-font-size {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  display: block;
+}
+
+.xl-font-size {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  display: block;
+}
+
+.f-size-10 {
+  font-size: 0.625rem;
+}
+
+.f-size-11 {
+  font-size: 0.688rem;
+}
+
+.f-size-12 {
+  font-size: 0.75rem;
+}
+
+.f-size-13 {
+  font-size: 0.8125rem;
+}
+
+.f-size-14 {
+  font-size: 0.875rem;
+}
+
+.f-size-15 {
+  font-size: 0.938;
+}
+
+.f-size-16 {
+  font-size: 1rem;
+}
+
+.f-size-17 {
+  font-size: 1.063rem;
+}
+
+.f-size-18 {
+  font-size: 1.125rem;
+}
+
+.f-size-19 {
+  font-size: 1.188rem;
+}
+
+.f-size-20 {
+  font-size: 1.25rem;
+}
+
+.f-size-21 {
+  font-size: 1.313rem;
+}
+
+.f-size-22 {
+  font-size: 1.375rem;
+}
+
+.f-size-23 {
+  font-size: 1.438rem;
+}
+
+.f-size-24 {
+  font-size: 1.5rem;
+}
+
+.f-size-25 {
+  font-size: 1.5625;
+}
+
+.f-size-26 {
+  font-size: 1.625rem;
+}
+
+.f-size-27 {
+  font-size: 1.688rem;
+}
+
+.f-size-28 {
+  font-size: 1.75rem;
+}
+
+.f-size-29 {
+  font-size: 1.813rem;
+}
+
+.f-size-30 {
+  font-size: 1.875rem;
+}
+
+.f-size-31 {
+  font-size: 1.938rem;
+}
+
+.f-size-32 {
+  font-size: 2rem;
+}
+
+.f-size-33 {
+  font-size: 2.063rem;
+}
+
+.f-size-34 {
+  font-size: 2.125rem;
+}
+
+.f-size-35 {
+  font-size: 2.188rem;
+}
+
+.f-size-36 {
+  font-size: 2.25rem;
+}
+
+.f-size-37 {
+  font-size: 2.313rem;
+}
+
+.f-size-38 {
+  font-size: 2.375rem;
+}
+
+.f-size-39 {
+  font-size: 2.438rem;
+}
+
+.f-size-40 {
+  font-size: 2.5rem;
+}
+
+.f-size-41 {
+  font-size: 2.563rem;
+}
+
+.f-size-42 {
+  font-size: 2.625rem;
+}
+
+.f-size-43 {
+  font-size: 2.688rem;
+}
+
+.f-size-44 {
+  font-size: 2.75rem;
+}
+
+.f-size-45 {
+  font-size: 2.813rem;
+}
+
+.f-size-46 {
+  font-size: 2.875rem;
+}
+
+.f-size-47 {
+  font-size: 2.938rem;
+}
+
+.f-size-48 {
+  font-size: 3rem;
+}
+
+.f-size-50 {
+  font-size: 3.125rem;
+}
+
+.f-size-52 {
+  font-size: 3.25rem;
+}
+
+.f-size-54 {
+  font-size: 3.375rem;
+}
+
+.lh-10 {
+  line-height: 0.625rem;
+}
+
+.lh-12 {
+  line-height: 0.75rem;
+}
+
+.lh-13 {
+  line-height: 0.8125rem;
+}
+
+.lh-14 {
+  line-height: 0.875rem;
+}
+
+.lh-16 {
+  line-height: 1rem;
+}
+
+.lh-18 {
+  line-height: 1.125rem;
+}
+
+.lh-20 {
+  line-height: 1.25rem;
+}
+
+.lh-22 {
+  line-height: 1.375rem;
+}
+
+.lh-24 {
+  line-height: 1.5rem;
+}
+
+.lh-26 {
+  line-height: 1.625rem;
+}
+
+.lh-25 {
+  line-height: 1.5625rem;
+}
+
+.lh-28 {
+  line-height: 1.75rem;
+}
+
+.lh-30 {
+  line-height: 1.875rem;
+}
+
+.lh-32 {
+  line-height: 2rem;
+}
+
+.lh-34 {
+  line-height: 2.125rem;
+}
+
+.lh-36 {
+  line-height: 2.25rem;
+}
+
+.lh-38 {
+  line-height: 2.375rem;
+}
+
+.lh-40 {
+  line-height: 2.5rem;
+}
+
+.lh-42 {
+  line-height: 2.625rem;
+}
+
+.lh-44 {
+  line-height: 2.75rem;
+}
+
+.lh-45 {
+  line-height: 2.8125rem;
+}
+
+.lh-46 {
+  line-height: 2.875rem;
+}
+
+.lh-48 {
+  line-height: 3rem;
+}
+
+.lh-50 {
+  line-height: 3.125rem;
+}
+
+.lh-52 {
+  line-height: 3.25rem;
+}
+
+.lh-54 {
+  line-height: 3.375rem;
+}
+
+.uc {
+  text-transform: uppercase;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: calc(3rem + 1vw);
+}
+
+a {
+  text-decoration: none;
+}
+
+.db {
+  display: block;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.max-width {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-column-to-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .flex-column-to-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.flex-row-to-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: unset;
+  -webkit-box-direction: unset;
+      -ms-flex-direction: unset;
+          flex-direction: unset;
+}
+
+@media (min-width: 768px) {
+  .flex-row-to-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.flex-1-12 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.flex-2-12 {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.flex-3-12 {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.flex-4-12 {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.flex-5-12 {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.flex-6-12 {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.flex-7-12 {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+}
+
+.flex-8-12 {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+}
+
+.flex-9-12 {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+}
+
+.flex-10-12 {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+}
+
+.flex-11-12 {
+  -webkit-box-flex: 11;
+      -ms-flex: 11;
+          flex: 11;
+}
+
+.flex-12-12 {
+  -webkit-box-flex: 12;
+      -ms-flex: 12;
+          flex: 12;
+}
+
+nav {
+  background: #23232D;
+  height: 100px;
+}
+
+nav .flex-row {
+  height: 100%;
+}
+
+nav .flex-4-12,
+nav .flex-8-12 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+nav a {
+  font-family: "Oswald", sans-serif;
+  color: #EBEBEB;
+  text-transform: uppercase;
+}
+
+nav #menu {
+  float: right;
+}
+
+nav li {
+  font-size: 1.25rem;
+  padding: 0 2rem 0 0;
+  display: inline-block;
+}
+
+.nav-tagline {
+  background: #F2F2F2;
+}
+
+.nav-tagline h1 {
+  padding: .5rem;
+  font-size: 1.5rem;
+}
+
+.home-main-aff {
+  color: #EBEBEB;
+}
+
+.home-main-aff a {
+  color: #EBEBEB;
+}
+
+.home-main-aff a :hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: .97;
+}
+
+.home-main-aff .heading-text {
+  background: #0097FB;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.home-main-aff .aff-container {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.home-main-aff .num {
+  text-align: center;
+  font-weight: 700;
+  font-size: 5rem;
+  opacity: .4;
+}
+
+.home-main-aff .icon-rake-wrapper {
+  padding: 1.5rem 0;
+}
+
+.home-main-aff .icon-rake-wrapper span {
+  font-size: 1.5rem;
+  padding: 0 1rem 0 0;
+}
+
+.home-main-aff .aff {
+  min-height: 100px;
+}
+
+.home-main-aff .aff-1 {
+  background: #23232D;
+}
+
+.home-main-aff .aff-2 {
+  background: #393942;
+}
+
+.home-main-aff .aff-3 {
+  background: #4F4F57;
+}
+
+.home-main-aff .see-more-container {
+  font-size: 1.25rem;
+  background: #23232D;
+}
+
+.home-main-aff .see-more-container span {
+  padding: 2rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .home-main-aff .aff-container {
+    margin: 1rem;
+  }
+}
+
+.home-main-welcome p {
+  font-family: "Lato", sans-serif;
+  color: #23232D;
+  font-size: 1.75rem;
+  line-height: 2.75rem;
+  margin: 6rem 0;
+}
