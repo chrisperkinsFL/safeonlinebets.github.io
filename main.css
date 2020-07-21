@@ -607,9 +607,19 @@ nav li {
   padding: 0 1rem 0 0;
 }
 
+.home-main-aff .icon-rake-wrapper .site-title {
+  font-weight: 500;
+  display: block;
+}
+
 .home-main-aff .icon-rake-wrapper span {
   font-size: 1.5rem;
   padding: 0 1rem 0 0;
+  font-weight: 300;
+}
+
+.home-main-aff .site-title {
+  color: #999999;
 }
 
 .home-main-aff .aff {
@@ -676,4 +686,58 @@ nav li {
   color: #23232D;
   margin: 2rem 0;
   width: auto;
+}
+
+.safe-online-break {
+  margin: 10rem 1rem;
+}
+
+.safe-online-break h3 {
+  margin: -4rem 0 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  border-bottom: 4px solid #0097FB;
+}
+
+.safe-online-break .main-column,
+.safe-online-break .right-rail {
+  padding: 0 2rem;
+}
+
+.safe-online-break .main-column {
+  background: #F2F2F2;
+  padding: 2rem;
+}
+
+.safe-online-break .main-column p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.safe-online-break .right-rail li {
+  font-size: 1.25rem;
+  list-style: none;
+  border-bottom: 1px solid #F2F2F2;
+  padding: .5rem;
+  font-weight: 300;
+}
+
+.safe-online-break .right-rail li a {
+  color: #0097FB;
+}
+
+.safe-online-break .right-rail li:hover {
+  background: #F2F2F2;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.safe-online-break .important {
+  font-size: 1.25rem;
+  margin: 2rem 0 0;
+}
+
+.safe-online-break h4 {
+  text-transform: uppercase;
 }
