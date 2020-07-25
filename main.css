@@ -545,6 +545,10 @@ nav a {
   text-transform: uppercase;
 }
 
+nav .active {
+  color: #82ADE4;
+}
+
 nav #menu {
   display: none;
   float: right;
