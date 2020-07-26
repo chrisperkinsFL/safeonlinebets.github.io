@@ -827,3 +827,58 @@ nav li {
         align-self: center;
   }
 }
+
+.sports-betting-reviews {
+  font-family: "Lato", sans-serif;
+  color: #EBEBEB;
+  font-size: 1.25rem;
+}
+
+.sports-betting-reviews a {
+  color: #EBEBEB;
+}
+
+.sports-betting-reviews a :hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: .97;
+}
+
+.sports-betting-reviews .heading-text {
+  background: #0097FB;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.sports-betting-reviews .aff-1 {
+  background: #23232D;
+}
+
+.sports-betting-reviews .aff-2 {
+  background: #393942;
+}
+
+.sports-betting-reviews .block {
+  padding: 1rem;
+}
+
+.sports-betting-reviews .sign-up-button {
+  font-family: "Oswald", sans-serif;
+  background: #A62A00;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .sports-betting-reviews .block {
+    padding: 1.5rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
