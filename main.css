@@ -686,6 +686,8 @@ nav li {
 .home-main-welcome p {
   font-family: "Lato", sans-serif;
   color: #23232D;
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 .home-main-welcome .disclosure {
@@ -700,10 +702,6 @@ nav li {
 @media (min-width: 768px) {
   .home-main-welcome h1 {
     font-size: 3rem;
-  }
-  .home-main-welcome p {
-    font-size: 1.75rem;
-    line-height: 2.5rem;
   }
 }
 
