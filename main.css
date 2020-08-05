@@ -389,7 +389,7 @@ button:focus {
 
 .max-width {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1140px;
 }
 
 .flex-column {
@@ -532,6 +532,10 @@ nav .flex-row {
   padding: 1rem;
 }
 
+nav .nav-logo img {
+  min-width: 251px;
+}
+
 nav .flex-4-12,
 nav .flex-8-12 {
   -ms-flex-item-align: center;
@@ -540,9 +544,13 @@ nav .flex-8-12 {
 }
 
 nav a {
-  font-family: "Oswald", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #EBEBEB;
   text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #82ADE4;
 }
 
 nav .active {
@@ -556,7 +564,8 @@ nav #menu {
 
 nav li {
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight: 700;
   padding: 0 2rem 0 0;
   display: inline-block;
 }
@@ -569,15 +578,18 @@ nav li {
 
 .nav-tagline {
   background: #F2F2F2;
+  font-family: "Lato", sans-serif;
 }
 
 .nav-tagline h2 {
   padding: .5rem;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .home-main-aff {
   color: #EBEBEB;
+  font-family: "Lato", sans-serif;
 }
 
 .home-main-aff a {
@@ -587,7 +599,7 @@ nav li {
 .home-main-aff a :hover {
   -webkit-transition: .3s;
   transition: .3s;
-  opacity: .97;
+  opacity: .9;
 }
 
 .home-main-aff .heading-text {
@@ -609,6 +621,7 @@ nav li {
   font-weight: 700;
   font-size: 5rem;
   opacity: .4;
+  color: #23232D;
 }
 
 .home-main-aff .icon-rake-wrapper {
@@ -620,18 +633,20 @@ nav li {
 }
 
 .home-main-aff .icon-rake-wrapper .site-title {
-  font-weight: 500;
+  font-weight: 700;
   display: block;
+  margin: .5rem 0 0;
 }
 
 .home-main-aff .icon-rake-wrapper span {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0 1rem 0 0;
   font-weight: 300;
+  color: #23232D;
 }
 
 .home-main-aff .site-title {
-  color: #999999;
+  color: #23232D;
 }
 
 .home-main-aff .aff {
@@ -639,28 +654,31 @@ nav li {
 }
 
 .home-main-aff .aff-1 {
-  background: #23232D;
+  background: #ddd;
 }
 
 .home-main-aff .aff-2 {
-  background: #393942;
+  background: #ddd;
+  border-top: 1px solid silver;
 }
 
 .home-main-aff .aff-3 {
-  background: #4F4F57;
+  background: #ddd;
+  border-top: 1px solid silver;
 }
 
 .home-main-aff .see-more-container {
-  font-size: 1.25rem;
-  background: #23232D;
+  font-size: 1rem;
+  font-weight: 700;
+  background: #A62A00;
 }
 
 .home-main-aff .see-more-container span {
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
 }
 
 .home-main-aff .see-more-container a:hover {
-  color: #0097FB;
+  color: #23232D;
 }
 
 @media (min-width: 768px) {
