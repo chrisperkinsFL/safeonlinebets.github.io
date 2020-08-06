@@ -629,7 +629,7 @@ nav li {
 }
 
 .home-main-aff .icon-rake-wrapper img {
-  padding: 0 1rem 0 0;
+  padding: 0 2rem 0 0;
 }
 
 .home-main-aff .icon-rake-wrapper .site-title {
@@ -641,7 +641,6 @@ nav li {
 .home-main-aff .icon-rake-wrapper span {
   font-size: 1rem;
   padding: 0 1rem 0 0;
-  font-weight: 300;
   color: #23232D;
 }
 
@@ -651,34 +650,39 @@ nav li {
 
 .home-main-aff .aff {
   min-height: 100px;
-}
-
-.home-main-aff .aff-1 {
-  background: #ddd;
+  background: #F6F6F6;
 }
 
 .home-main-aff .aff-2 {
-  background: #ddd;
   border-top: 1px solid silver;
 }
 
 .home-main-aff .aff-3 {
-  background: #ddd;
   border-top: 1px solid silver;
 }
 
 .home-main-aff .see-more-container {
   font-size: 1rem;
   font-weight: 700;
-  background: #A62A00;
+  background: #911010;
 }
 
 .home-main-aff .see-more-container span {
   padding: 1.5rem 3rem;
 }
 
+.home-main-aff .see-more-container a {
+  margin: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .home-main-aff .see-more-container a:hover {
-  color: #23232D;
+  color: #F2F2F2;
+  text-decoration: underline;
+  margin: 0 0 0 .5rem;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 @media (min-width: 768px) {
@@ -828,7 +832,7 @@ nav li {
 
 .online-poker-reviews .sign-up-button {
   font-family: "Oswald", sans-serif;
-  background: #A62A00;
+  background: #911010;
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
@@ -883,7 +887,7 @@ nav li {
 
 .sports-betting-reviews .sign-up-button {
   font-family: "Oswald", sans-serif;
-  background: #A62A00;
+  background: #911010;
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
