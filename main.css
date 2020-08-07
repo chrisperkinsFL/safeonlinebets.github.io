@@ -650,15 +650,15 @@ nav li {
 
 .home-main-aff .aff {
   min-height: 100px;
-  background: #F6F6F6;
+  background: #e8eef3;
 }
 
 .home-main-aff .aff-2 {
-  border-top: 1px solid silver;
+  border-top: 1px solid #d9d9d9;
 }
 
 .home-main-aff .aff-3 {
-  border-top: 1px solid silver;
+  border-top: 1px solid #d9d9d9;
 }
 
 .home-main-aff .see-more-container {
