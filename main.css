@@ -1095,3 +1095,38 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
         align-self: center;
   }
 }
+
+.article {
+  margin: 6rem 1rem;
+  font-family: "lato", sans-serif;
+}
+
+.article h1 {
+  margin: 0 0 4rem;
+  font-size: 2rem;
+  color: #23232D;
+  font-weight: 700;
+}
+
+.article p {
+  font-family: "Lato", sans-serif;
+  color: #23232D;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.article .disclosure {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  display: block;
+  color: #23232D;
+  margin: 2rem 0;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .article h1 {
+    line-height: 5rem;
+    font-size: 4rem;
+  }
+}
