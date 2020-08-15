@@ -769,13 +769,17 @@ section.home-main-articles .left-flex .flex-child-block {
   width: 100%;
   min-width: 200px;
   margin: 20px 0 0;
-  background-image: url("img/5-simple-things-to-improve-your-poker-results-today.png");
+  background: url(img/5-simple-things-to-improve-your-poker-results-today.png);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 section.home-main-articles .left-flex .flex-child-block:hover {
+  background: url(img/5-simple-things-to-improve-your-poker-results-today.png) rgba(0, 151, 251, 0.8);
+  background-blend-mode: multiply;
   color: #F2F2F2;
-  background: #0097FB;
-  filter: alpha(opacity=30);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 section.home-main-articles .right-flex {
@@ -790,33 +794,45 @@ section.home-main-articles .right-flex {
 }
 
 section.home-main-articles .right-flex .flex-child-1 {
-  background-image: url("img/casino-dark.png");
+  background-image: url(img/casino-dark.png);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 section.home-main-articles .right-flex .flex-child-1:hover {
+  background: url(img/casino-dark.png) rgba(240, 106, 40, 0.8);
+  background-blend-mode: multiply;
   color: #F2F2F2;
-  background: #F06A28;
-  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 section.home-main-articles .right-flex .flex-child-2 {
-  background-image: url("img/sportsbook-dark.png");
+  background-image: url(img/sportsbook-dark.png);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 section.home-main-articles .right-flex .flex-child-2:hover {
+  background: url(img/sportsbook-dark.png) rgba(145, 16, 16, 0.8);
+  background-blend-mode: multiply;
   color: #F2F2F2;
-  background: #911010;
-  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 section.home-main-articles .right-flex .flex-child-3 {
-  background-image: url("img/poker.png");
+  background-image: url(img/poker.png);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 section.home-main-articles .right-flex .flex-child-3:hover {
+  background: url(img/poker.png) rgba(0, 151, 251, 0.8);
+  background-blend-mode: multiply;
   color: #F2F2F2;
-  background: #0097FB;
-  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 section.home-main-articles .right-flex .flex-child-4 {
