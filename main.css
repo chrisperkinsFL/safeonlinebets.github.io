@@ -616,20 +616,8 @@ nav li {
   width: 100%;
 }
 
-.home-main-aff .num {
-  text-align: center;
-  font-weight: 700;
-  font-size: 5rem;
-  opacity: .4;
-  color: #23232D;
-}
-
 .home-main-aff .icon-rake-wrapper {
-  padding: 1.5rem 0;
-}
-
-.home-main-aff .icon-rake-wrapper img {
-  padding: 0 2rem 0 0;
+  padding: 2rem;
 }
 
 .home-main-aff .icon-rake-wrapper .site-title {
@@ -639,7 +627,7 @@ nav li {
 }
 
 .home-main-aff .icon-rake-wrapper span {
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding: 0 1rem 0 0;
   color: #23232D;
 }
