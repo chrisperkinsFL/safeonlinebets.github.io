@@ -1111,9 +1111,20 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
   width: auto;
 }
 
+.article .right-rail {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .article h1 {
     line-height: 5rem;
     font-size: 4rem;
+  }
+  .article .content-left {
+    padding: 0 2rem 0 0;
+  }
+  .article .right-rail {
+    display: block;
+    min-width: 250px;
   }
 }
