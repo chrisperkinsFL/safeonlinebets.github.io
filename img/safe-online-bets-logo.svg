@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 209 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-104.94,-27.2074)">
+        <g transform="matrix(1,0,0,2.5066,0,25.066)">
+            <g transform="matrix(1.63571,0,0,0.652564,-1.37857,6.86977)">
+                <text x="117px" y="33.5px" style="font-family:'Oswald-Light', 'Oswald';font-weight:300;font-size:16.667px;fill:white;">ONLINE BETS</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,2.5066,0,25.066)">
+            <g transform="matrix(2.51298,0,0,1.00255,-1233.86,-17.08)">
+                <text x="567px" y="32.5px" style="font-family:'Oswald-SemiBold', 'Oswald';font-weight:600;font-size:16.667px;fill:white;">SA<tspan x="584.183px " y="32.5px ">F</tspan>E</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,2.5066,0,25.066)">
+            <g id="poker-game" transform="matrix(1,-0,-0,0.398947,104.94,0.854328)">
+                <use xlink:href="#_Image1" x="0.233" y="0" width="73.536px" height="74px" transform="matrix(0.993735,0,0,1,0,0)"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="74px" height="74px" xlink:href="data:image/png;base64,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"/>
+    </defs>
+</svg>

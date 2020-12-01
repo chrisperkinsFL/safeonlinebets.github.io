@@ -389,7 +389,11 @@ button:focus {
 
 .max-width {
   margin: 0 auto;
-  max-width: 1140px;
+  max-width: 1280px;
+}
+
+a {
+  color: #aa2525;
 }
 
 .flex-column {
@@ -422,7 +426,7 @@ button:focus {
           flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .flex-column-to-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -441,7 +445,7 @@ button:focus {
           flex-direction: unset;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .flex-row-to-column {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -523,17 +527,13 @@ button:focus {
 }
 
 nav {
-  background: #23232D;
-  height: 100px;
+  background: #aa2525;
+  height: 120px;
 }
 
 nav .flex-row {
   height: 100%;
   padding: 1rem;
-}
-
-nav .nav-logo img {
-  min-width: 251px;
 }
 
 nav .flex-4-12,
@@ -544,13 +544,13 @@ nav .flex-8-12 {
 }
 
 nav a {
-  font-family: "Lato", sans-serif;
-  color: #EBEBEB;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 nav a:hover {
-  color: #82ADE4;
+  color: #212232;
 }
 
 nav .active {
@@ -564,21 +564,20 @@ nav #menu {
 
 nav li {
   text-transform: uppercase;
-  font-size: 1rem;
-  font-weight: 700;
-  padding: 0 2rem 0 0;
+  font-size: 1.5rem;
+  padding: 0 0 0 2rem;
   display: inline-block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   nav #menu {
     display: block;
   }
 }
 
 .nav-tagline {
-  background: #F2F2F2;
-  font-family: "Lato", sans-serif;
+  background: #dddddd;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-tagline h2 {
@@ -588,12 +587,12 @@ nav li {
 }
 
 .home-main-aff {
-  color: #EBEBEB;
-  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
 .home-main-aff a {
-  color: #EBEBEB;
+  color: #ffffff;
 }
 
 .home-main-aff a :hover {
@@ -603,7 +602,7 @@ nav li {
 }
 
 .home-main-aff .heading-text {
-  background: #0097FB;
+  background: #1d5c86;
   color: #fff;
   padding: 1rem;
   text-transform: uppercase;
@@ -629,11 +628,11 @@ nav li {
 .home-main-aff .icon-rake-wrapper span {
   font-size: 1.25rem;
   padding: 0 1rem 0 0;
-  color: #23232D;
+  color: #212232;
 }
 
 .home-main-aff .site-title {
-  color: #23232D;
+  color: #212232;
 }
 
 .home-main-aff .aff {
@@ -652,7 +651,7 @@ nav li {
 .home-main-aff .see-more-container {
   font-size: 1rem;
   font-weight: 700;
-  background: #911010;
+  background: #aa2525;
 }
 
 .home-main-aff .see-more-container span {
@@ -666,21 +665,21 @@ nav li {
 }
 
 .home-main-aff .see-more-container a:hover {
-  color: #F2F2F2;
+  color: #dddddd;
   text-decoration: underline;
   margin: 0 0 0 .5rem;
   -webkit-transition: .3s;
   transition: .3s;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .home-main-aff .aff-container {
     margin: 1rem;
   }
 }
 
 section.home-main-articles {
-  color: #EBEBEB;
+  color: #ffffff;
   margin: 3rem 1rem;
 }
 
@@ -706,12 +705,12 @@ section.home-main-articles .category .casino {
 }
 
 section.home-main-articles .category .sportsbook {
-  background: #911010;
+  background: #aa2525;
 }
 
 section.home-main-articles p {
   margin: 1rem 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
 }
 
@@ -723,7 +722,7 @@ section.home-main-articles .content-wrapper {
 }
 
 section.home-main-articles .content-wrapper a {
-  color: #EBEBEB;
+  color: #ffffff;
 }
 
 section.home-main-articles .content-wrapper a h4:hover {
@@ -738,7 +737,7 @@ section.home-main-articles .s-content-wrapper {
 }
 
 section.home-main-articles .s-content-wrapper a {
-  color: #EBEBEB;
+  color: #ffffff;
 }
 
 section.home-main-articles .s-content-wrapper a h5:hover {
@@ -765,7 +764,7 @@ section.home-main-articles .left-flex .flex-child-block {
 section.home-main-articles .left-flex .flex-child-block:hover {
   background: url(img/5-simple-things-to-improve-your-poker-results-today.png) rgba(0, 151, 251, 0.8);
   background-blend-mode: multiply;
-  color: #F2F2F2;
+  color: #dddddd;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -790,7 +789,7 @@ section.home-main-articles .right-flex .flex-child-1 {
 section.home-main-articles .right-flex .flex-child-1:hover {
   background: url(img/casino-dark.png) rgba(240, 106, 40, 0.8);
   background-blend-mode: multiply;
-  color: #F2F2F2;
+  color: #dddddd;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -804,7 +803,7 @@ section.home-main-articles .right-flex .flex-child-2 {
 section.home-main-articles .right-flex .flex-child-2:hover {
   background: url(img/sportsbook-dark.png) rgba(145, 16, 16, 0.8);
   background-blend-mode: multiply;
-  color: #F2F2F2;
+  color: #dddddd;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -818,34 +817,34 @@ section.home-main-articles .right-flex .flex-child-3 {
 section.home-main-articles .right-flex .flex-child-3:hover {
   background: url(img/poker.png) rgba(0, 151, 251, 0.8);
   background-blend-mode: multiply;
-  color: #F2F2F2;
+  color: #dddddd;
   -webkit-transition: .3s;
   transition: .3s;
 }
 
 section.home-main-articles .right-flex .flex-child-4 {
-  background: #F2F2F2;
+  background: #dddddd;
   -webkit-transition: .2s;
   transition: .2s;
 }
 
 section.home-main-articles .right-flex .flex-child-4 a {
-  color: #0097FB;
+  color: #1d5c86;
 }
 
 section.home-main-articles .right-flex .flex-child-4 a:hover {
-  color: #EBEBEB;
+  color: #ffffff;
 }
 
 section.home-main-articles .right-flex .flex-child-4:hover {
   -webkit-transition: .4s;
   transition: .4s;
-  background: #0097FB;
+  background: #1d5c86;
   cursor: pointer;
 }
 
 section.home-main-articles .right-flex .flex-child-4:hover a {
-  color: #EBEBEB;
+  color: #ffffff;
 }
 
 section.home-main-articles .right-flex .flex-child-block {
@@ -862,7 +861,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
   margin-right: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   section.home-main-articles .left-flex .flex-child-block {
     margin: 20px 20px 20px 0;
     min-height: 500px;
@@ -887,22 +886,22 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .home-main-welcome p {
-  font-family: "Lato", sans-serif;
-  color: #23232D;
+  font-family: "Roboto", sans-serif;
+  color: #212232;
   font-size: 1.25rem;
   line-height: 2rem;
 }
 
 .home-main-welcome .disclosure {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   display: block;
-  color: #23232D;
+  color: #212232;
   margin: 2rem 0;
   width: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .home-main-welcome h1 {
     font-size: 3rem;
   }
@@ -916,7 +915,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
   margin: -4rem 0 1rem;
   font-size: 2.5rem;
   font-weight: 500;
-  border-bottom: 4px solid #0097FB;
+  border-bottom: 4px solid #1d5c86;
 }
 
 .safe-online-break .main-column,
@@ -925,21 +924,21 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .safe-online-break .main-column {
-  background: #F2F2F2;
+  background: #dddddd;
   padding: 2rem;
 }
 
 .safe-online-break .main-column p {
   font-size: 1.25rem;
   line-height: 2rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .safe-online-break .right-rail li {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   list-style: none;
-  border-bottom: 1px solid #F2F2F2;
+  border-bottom: 1px solid #dddddd;
   padding: .5rem;
   font-weight: 300;
   color: #393942;
@@ -947,11 +946,11 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 
 .safe-online-break .right-rail li a {
   font-family: "Oswald", sans-serif;
-  color: #0097FB;
+  color: #1d5c86;
 }
 
 .safe-online-break .right-rail li:hover {
-  background: #F2F2F2;
+  background: #dddddd;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -970,18 +969,18 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .convert-flow .flex-12-12 {
-  background: #23232D;
+  background: #212232;
   padding: 6rem 0;
 }
 
 .online-poker-reviews {
-  font-family: "Lato", sans-serif;
-  color: #EBEBEB;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
   font-size: 1.25rem;
 }
 
 .online-poker-reviews a {
-  color: #EBEBEB;
+  color: #ffffff;
 }
 
 .online-poker-reviews a :hover {
@@ -991,7 +990,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .online-poker-reviews .heading-text {
-  background: #0097FB;
+  background: #1d5c86;
   color: #fff;
   padding: 1rem;
   text-transform: uppercase;
@@ -1000,7 +999,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .online-poker-reviews .aff-1 {
-  background: #23232D;
+  background: #212232;
 }
 
 .online-poker-reviews .aff-2 {
@@ -1013,14 +1012,14 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 
 .online-poker-reviews .sign-up-button {
   font-family: "Oswald", sans-serif;
-  background: #911010;
+  background: #aa2525;
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .online-poker-reviews .block {
     padding: 1.5rem;
     -ms-flex-item-align: center;
@@ -1030,13 +1029,13 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .sports-betting-reviews {
-  font-family: "Lato", sans-serif;
-  color: #EBEBEB;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
   font-size: 1.25rem;
 }
 
 .sports-betting-reviews a {
-  color: #EBEBEB;
+  color: #ffffff;
 }
 
 .sports-betting-reviews a :hover {
@@ -1046,7 +1045,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .sports-betting-reviews .heading-text {
-  background: #0097FB;
+  background: #1d5c86;
   color: #fff;
   padding: 1rem;
   text-transform: uppercase;
@@ -1055,7 +1054,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .sports-betting-reviews .aff-1 {
-  background: #23232D;
+  background: #212232;
 }
 
 .sports-betting-reviews .aff-2 {
@@ -1068,14 +1067,14 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 
 .sports-betting-reviews .sign-up-button {
   font-family: "Oswald", sans-serif;
-  background: #911010;
+  background: #aa2525;
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .sports-betting-reviews .block {
     padding: 1.5rem;
     -ms-flex-item-align: center;
@@ -1096,17 +1095,17 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 }
 
 .article p {
-  font-family: "Lato", sans-serif;
-  color: #23232D;
+  font-family: "Roboto", sans-serif;
+  color: #212232;
   font-size: 1.25rem;
   line-height: 2rem;
 }
 
 .article .disclosure {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   display: block;
-  color: #23232D;
+  color: #212232;
   margin: 2rem 0;
   width: auto;
 }
@@ -1115,7 +1114,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .article h1 {
     line-height: 5rem;
     font-size: 4rem;
@@ -1126,5 +1125,204 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
   .article .right-rail {
     display: block;
     min-width: 250px;
+  }
+}
+
+.r_main_top .featured,
+.r_main_top .small-article-container {
+  border: 1px solid #dddddd;
+  padding: 2rem;
+  margin: 4rem 1rem 0;
+  -webkit-box-shadow: 1px 1px 100px #dddddd;
+          box-shadow: 1px 1px 100px #dddddd;
+}
+
+.r_main_top .featured h4,
+.r_main_top .small-article-container h4 {
+  padding: 0;
+  font-weight: 500;
+  color: #aa2525;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin: 0 0 1rem;
+}
+
+.r_main_top .small-article {
+  margin: 0 0 2rem;
+}
+
+.r_main_top .small-article img {
+  max-width: 150px;
+  margin: 0 1rem 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.r_main_top .small-article a {
+  font-size: .9rem;
+  display: block;
+  margin: 1rem 0 0;
+}
+
+.r_main_top h2 {
+  margin: 1rem 0 0;
+  text-transform: capitalize;
+  line-height: 3.5rem;
+  font-weight: 600;
+  color: #212232;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -.06rem;
+}
+
+.r_main_top h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #212232;
+  font-family: "Roboto", sans-serif;
+}
+
+.r_main_top a {
+  font-weight: 500;
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem 0 0;
+  color: #aa2525;
+  text-transform: uppercase;
+}
+
+.r_main_affiliates .container {
+  border: 1px solid #dddddd;
+  padding: 1.5rem 3rem;
+  margin: 4rem 1rem 0;
+  -webkit-box-shadow: 1px 1px 100px #dddddd;
+          box-shadow: 1px 1px 100px #dddddd;
+}
+
+.r_main_affiliates img {
+  max-width: 200px;
+}
+
+.r_main_affiliates h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 1rem 0 2rem;
+}
+
+.r_main_affiliates li {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  margin: 1.25rem 0;
+}
+
+.r_main_affiliates .button {
+  background: #aa2525;
+  padding: 1rem 3rem;
+  font-size: 1.25rem;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 3rem 0 1rem;
+  text-align: center;
+  border: 1px solid #aa2525;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.r_main_affiliates .button:hover {
+  background: #ffffff;
+  color: #aa2525;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.r_article_top .entire-header {
+  position: relative;
+}
+
+.r_article_top .content-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #ffffff;
+  width: 100%;
+  padding: 2rem;
+}
+
+.r_article_top .image-inside-post {
+  width: auto;
+  max-height: 450px;
+}
+
+.r_article_top .play-free {
+  background: #f2f2f2;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.r_article_top .play-free .content-container {
+  display: inline-block;
+  padding: 0 1rem;
+  vertical-align: top;
+}
+
+.r_article_top .play-free h6 {
+  font-size: 1rem;
+}
+
+.r_article_top .play-free img {
+  max-width: 73px;
+}
+
+.r_article_top .article-content {
+  width: 100%;
+  padding: 2rem;
+  -webkit-box-shadow: 2px 2px 20px #dbdbdb;
+          box-shadow: 2px 2px 20px #dbdbdb;
+}
+
+.r_article_top .article-category {
+  display: none;
+}
+
+.r_article_top h3 {
+  margin: 1rem 0;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: calc(2rem + 1vw);
+}
+
+.r_article_top h4 {
+  margin: 4rem 0 0;
+}
+
+.r_article_top p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin: 2.5rem 0;
+  line-height: 2.25rem;
+}
+
+.r_article_top img {
+  width: 100%;
+  max-height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .r_article_top .article-category {
+    font-size: 1.1rem;
+    background: #aa2525;
+    padding: 1rem;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+  }
+  .r_article_top .content-heading,
+  .r_article_top .article-content {
+    padding: 2rem 8rem;
   }
 }
