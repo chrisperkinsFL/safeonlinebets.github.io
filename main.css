@@ -1167,11 +1167,12 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 .r_main_top h2 {
   margin: 1rem 0 0;
   text-transform: capitalize;
-  line-height: 3.5rem;
   font-weight: 600;
   color: #212232;
   font-family: "Roboto", sans-serif;
   letter-spacing: -.06rem;
+  line-height: calc(2rem + 1vw);
+  font-size: calc(1.5rem + 1vw);
 }
 
 .r_main_top h3 {
