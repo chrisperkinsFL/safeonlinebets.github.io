@@ -1261,6 +1261,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
   background: #f2f2f2;
   padding: 1rem;
   display: inline-block;
+  margin: 0 0 2rem;
 }
 
 .r_article_top .play-free .content-container {
@@ -1301,9 +1302,9 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
 
 .r_article_top p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  margin: 2.5rem 0;
-  line-height: 2.25rem;
+  font-size: 1.25rem;
+  margin: 1rem 0 2.5rem 0;
+  line-height: 2rem;
 }
 
 .r_article_top img {
@@ -1328,13 +1329,18 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
   }
 }
 
+.r_main_faq {
+  margin-top: 6rem;
+  padding: 0 1rem;
+}
+
 .r_main_faq h4 {
   margin: 4rem 0 0;
 }
 
 .r_main_faq p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  margin: 2.5rem 0;
-  line-height: 2.25rem;
+  font-size: 1.25rem;
+  margin: 1rem 0 2.5rem 0;
+  line-height: 2rem;
 }
