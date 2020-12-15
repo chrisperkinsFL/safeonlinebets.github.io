@@ -1314,6 +1314,17 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
      object-fit: cover;
 }
 
+.r_article_top .in-article-photo {
+  width: auto;
+}
+
+.r_article_top li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  margin: .5rem 0;
+}
+
 @media (min-width: 900px) {
   .r_article_top .article-category {
     font-size: 1.1rem;
