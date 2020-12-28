@@ -1289,7 +1289,7 @@ section.home-main-articles .right-flex .flex-child-block:nth-child(even) {
   display: none;
 }
 
-.r_article_top h3 {
+.r_article_top h3, .r_article_top h1 {
   margin: 1rem 0;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
